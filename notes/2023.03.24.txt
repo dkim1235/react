@@ -1,0 +1,26 @@
+I'm officially doing the react course.
+I thought I'd get away from courses after finishing the webdev bootcamp.
+I finished the react tutorial and I finished all of the extra steps that were involved. 
+
+Path to becoming a full stack engineer:
+
+1. finish learning react
+2. learn to use postgre 
+3. learn system design
+4. brush up on data structures and algos
+5. software arch
+6. optimization.
+
+I have a long journey ahead of me. 
+
+I also have things I want to accomplish.
+When I don't feel like doing my course, I'll work on my personal projects.
+
+1. Portfolio/blog
+2. algo datastructure visualizer
+3. create an API
+
+STOP THINKING ABOUT WHAT IS BETTER JUST DO THINGS!!!!!
+
+ULTIMATE GOAL
+MAKE A GAME WITH NFTs and break even
