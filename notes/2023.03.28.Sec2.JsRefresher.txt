@@ -1,0 +1,13 @@
+Javascript refresher:
+
+Things I should remember and know at the back of my hand:
+1. difference between let and const
+2. arrow functions
+3. exports and imports
+4. understanding classes
+5. classes, properties and methods
+6. spread and rest operator
+7. destructuring
+8. reference and primitive types
+9. array methods
+10. array functions

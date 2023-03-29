@@ -1,0 +1,7 @@
+1. components
+
+2. declaritive
+
+3. creating a new react project
+
+4. starting the project
