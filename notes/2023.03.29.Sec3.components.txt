@@ -1,7 +1,20 @@
-1. components
+components: 
+reusability and separation of concerns.
+split big chunks of code into multiple smaller functions.
 
-2. declaritive
+react combines HTML CSS and JavaScript.
+CSS is the least important part. 
+
+declaritive approach. 
+always define the desired end state. the target end state. 
+build your own custom HTML elements. 
 
 3. creating a new react project
+create react app tool. 
+
+npx create-react-app my-app
+cd my-app
+npm start
+
 
 4. starting the project
