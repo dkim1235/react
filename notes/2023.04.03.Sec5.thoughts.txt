@@ -1,0 +1,19 @@
+I was thinking about it. 
+I was extremely un-motivated at work and extremely unmotivated at my personal project.
+I think it's because All I'm doing is learning but not executing.
+Because I'm constantly learning and I feel like I'm "re-learning" pieces of react from my tutorial, I feel like I'm stuck.
+What I decided to do is skip the lectures for now.
+I can watch them on my own later.
+What I can do now to help with my learning fateague is just do the section 8 small project. 
+I'll use bootstrap and react to make this thing. 
+I'll use the lecture titles as guidelines for what I should be doing step by step.
+
+1. Adding "user" component
+2. Adding re-usable "card" component
+3. Adding re-usable "button" component
+4. managing the user input state
+5. adding validation & resetting logic
+6. adding a users list component
+7. managing a list of users via state
+8. adding "errorModal" component
+9. managing the error state
