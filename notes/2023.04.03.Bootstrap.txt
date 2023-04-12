@@ -1,0 +1,22 @@
+https://react-bootstrap.github.io/getting-started/introduction
+
+This is how to get started with bootstrap using react. 
+
+npm i react-bootstrap bootstrap
+
+import {Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+after doing a little bit of research i realized I do not want to use bootstrap.
+I've had experience using bootstrap before and if you want to make something quickly, bootstrap is the way to do it, then come back to style it the way you like later, but for learning purposes I think in the long team using styled compononents is the right way to go.
+
+It seems so intuitive and perfect for react. 
+It's also used in many unicorns and startups and established companies.
+
+https://styled-components.com/
+
+npm install --save styled-components
+npm install --save-dev babel-plugin-styled-components
+
+this will also help me with learning css more. 
