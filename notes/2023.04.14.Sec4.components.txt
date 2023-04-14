@@ -1,0 +1,14 @@
+when trying to implement css that the course is implementing styling.
+I want to convert everything into styled components because that's what I'd like to use long term and gain mastery on.
+
+I need to take steps instead of trying to leap into a solution.
+
+I think I have this habbit because when I was a kid taking math courses I would be able to make leaps into solutions.
+
+What I'm doing now is more complex and takes more thought.
+
+Take things step by step.
+
+Step one is to use the css implementation.
+Step two is to convert it into styled components. 
+
