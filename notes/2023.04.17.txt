@@ -1,0 +1,6 @@
+while completing the practice project I'm realizing I need to go back to certain parts and watch the lectures I've skipped.
+
+especially with event handlers. 
+
+What I'll do is I'll just watch the lectures instead of taking detailed notes etc unless necessary.
+
