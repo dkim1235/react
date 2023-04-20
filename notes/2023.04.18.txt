@@ -1,0 +1,38 @@
+today I want to spend the day refactoring code and making it more organized from a styled components perspective. 
+I can spend some time trying to replicate what Max did in the practice project. I think I want to get to a point where I don't have to look at the reference code and be able to use react on the fly.
+
+try using theme for the user case. 
+
+what I noticed is that I didn't create a list of things I want to do. 
+I had a broad general idea and it was massive. I started but it wasn't efficient because I was trying to do everything all at once. 
+It's too much...
+Especially with how complex things are now. I used to be able to do this, and now I need to break out of the habbit of doing this. 
+
+currently do not think about using styled components. Use the CSS flow and method that Max uses. 
+
+- add user component
+- add re-usable card component
+- add re-usable Button
+- add user Input state
+- add validation and reset logic
+- users list component
+- manage list of users via state.
+- add error modal.
+- manage error state.
+- re-arrange directories and components from bullet-proof react. 
+
+- convert using styled components
+- convert to ts
+
+
+notes on what I don't remember
+
+- I don't remember how to start a react function.
+- I don't know html well enough for forms etc. 
+	- html forms
+
+- form input id
+- form button type
+
+- form react router onSubmit.
+- react event handler for form submit
