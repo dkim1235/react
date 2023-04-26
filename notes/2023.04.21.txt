@@ -1,0 +1,5 @@
+I just realized that the naming method of css will affect how css is used. 
+
+things to do:
+
+know some css basics like the back of my hand. 

@@ -1,0 +1,5 @@
+- know the basics of event handlers in react
+- useState handler
+- know how to use map from props array like the back of my hand.
+
+
