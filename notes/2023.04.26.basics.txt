@@ -1,0 +1,12 @@
+Things I realized I need to have a foundation of from the basic small practice project.
+- memorize basic html like the back of my hand
+  - input id
+  - button types
+  - forms
+    - react router onSubmit
+  - event handler
+- remember how to start a react function
+- know some css module basics like the back of my hand
+- know the basics of event handlers in react
+- useState handler
+- know how to use map from props array like the back of my hand.
