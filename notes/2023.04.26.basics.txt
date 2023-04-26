@@ -10,3 +10,4 @@ Things I realized I need to have a foundation of from the basic small practice p
 - know the basics of event handlers in react
 - useState handler
 - know how to use map from props array like the back of my hand.
+- understand how event prevent default works. event.preventDefault();
