@@ -29,10 +29,10 @@ const passwordReducer = (state, action) => {
 const Login = (props) => {
   // const [enteredEmail, setEnteredEmail] = useState('');
   // const [emailIsValid, setEmailIsValid] = useState();
-  const [emailState, dispatchEmail] = useReducer(emailReducer,{value:'', isValid: false});
+  const [emailState, dispatchEmail] = useReducer(emailReducer,{value:'', isValid: null});
   // const [enteredPassword, setEnteredPassword] = useState('');
   // const [passwordIsValid, setPasswordIsValid] = useState();
-  const [passwordState, dispatchPassword] = useReducer(passwordReducer, {value: '', isValid: false});
+  const [passwordState, dispatchPassword] = useReducer(passwordReducer, {value: '', isValid: null});
   const [formIsValid, setFormIsValid] = useState(false);
 
   
