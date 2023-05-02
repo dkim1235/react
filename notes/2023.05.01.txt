@@ -1,0 +1,4 @@
+basics:
+
+understand useReducer's state and action in function. 
+
