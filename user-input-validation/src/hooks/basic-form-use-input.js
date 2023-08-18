@@ -1,36 +1,55 @@
-import { useState } from 'react';
+import { useReducer } from 'react';
+
+const initialInputState = {
+	value: '',
+	isTouched: false
+}
+
+const inputStateReducer = (state, action) => {
+	if(action.type == 'INPUT') {
+		return {value: action.value, isTouched: state.isTouched}
+	}
+	if(action.type == 'BLUR') {
+		return {isTouched: true, value: state.value}
+	}
+	if(action.type == 'RESET') {
+		return {value: '', isTouched:false}
+	}
+	return inputStateReducer;
+}
 
 const useInput = (validateValue) => {
-  const [enteredValue, setEnteredValue] = useState('');
-  const [enteredValueIsTouched, setEnteredValueIsTouched] = useState(false);
+  const [inputState, dispatch] = useReducer(
+    inputStateReducer,
+    initialInputState
+  );
 
-  const enteredValueIsValid = validateValue(enteredValue);
-  const enteredValueHasError = !enteredValueIsValid && enteredValueIsTouched;
+  const enteredValueIsValid = validateValue(inputState.value);
+  const enteredValueHasError = !enteredValueIsValid && inputState.isTouched;
 
   const enteredValueChangeHandler = (event) => {
-    setEnteredValue(event.target.value);
+		dispatch({type: 'INPUT', value: event.target.value});
   };
   const enteredValueIsTouchedHandler = (event) => {
-    setEnteredValueIsTouched(true);
+		dispatch({type: 'BLUR'});
   };
 
   const valueInputClasses = enteredValueHasError
     ? 'form-control invalid'
     : 'form-control';
 
-	const resetValues = () => {
-		setEnteredValue('');
-		setEnteredValueIsTouched(false);
-	}
+  const resetValues = () => {
+		dispatch({type: 'RESET'})
+  };
 
   return {
-    enteredValue,
-		enteredValueIsValid,
-		enteredValueHasError,
+    enteredValue: inputState.value,
+    enteredValueIsValid,
+    enteredValueHasError,
     enteredValueChangeHandler,
     enteredValueIsTouchedHandler,
-		valueInputClasses,
-		resetValues
+    valueInputClasses,
+    resetValues,
   };
 };
 
