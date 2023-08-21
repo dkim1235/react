@@ -34,18 +34,18 @@ const BasicForm = (props) => {
   let formIsValid = false;
 
   if (
-    enteredFirstNameIsValid == true &&
-    enteredLastNameIsValid == true &&
-    enteredEmailIsValid == true
+    enteredFirstNameIsValid === true &&
+    enteredLastNameIsValid === true &&
+    enteredEmailIsValid === true
   ) {
     formIsValid = true;
   }
   const formSubmissionHandler = (event) => {
     event.preventDefault();
     if (
-      enteredFirstName.trim() == '' &&
-      enteredLastName.trim() == '' &&
-      enteredEmail.trim() == ''
+      enteredFirstName.trim() === '' &&
+      enteredLastName.trim() === '' &&
+      enteredEmail.trim() === ''
     ) {
       return;
     }

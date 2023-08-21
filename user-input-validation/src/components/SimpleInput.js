@@ -27,7 +27,7 @@ const SimpleInput = (props) => {
 
   const formSubmissionHandler = (event) => {
     event.preventDefault();
-    if (enteredName.trim() == '' || enteredEmail.trim() == '') {
+    if (enteredName.trim() === '' || enteredEmail.trim() === '') {
       return;
     }
 
